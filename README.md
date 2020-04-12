@@ -9,8 +9,8 @@ No gag? Let Trash Talk Generator help you!
 * Express v4.17.1
 * Express-Handlebars v4.0.3
 
-**Clone**
-Clone this repository to local machine
+**Clone**  
+Clone this repository to local machine  
 $ git clone https://github.com/Rubyrubylai/trash-talk-generator.git
 
 **Setup**
@@ -26,5 +26,5 @@ $ git clone https://github.com/Rubyrubylai/trash-talk-generator.git
 ## Features
 |Function|URL     |Detail  |
 |--------|--------|--------|
-|首頁    |http://localhost:3000/|choose the job and press the button to generate trash talk|
+|Home    |http://localhost:3000/|choose the job and press the button to generate trash talk|
 
