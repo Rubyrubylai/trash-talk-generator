@@ -12,17 +12,27 @@ No gag? Let Trash Talk Generator help you!
 **Clone**  
 
 Clone this repository to local machine  
-```$ git clone https://github.com/Rubyrubylai/trash-talk-generator.git```
+```
+$ git clone https://github.com/Rubyrubylai/trash-talk-generator.git
+```
 
 **Setup**
 1. Enter the project folder  
-```cd trash-talk-generator```
+```
+cd trash-talk-generator
+```
 2. Install npm packages  
-```npm i```
+```
+npm i
+```
 3. Activate the server  
-```npm run dev```
+```
+npm run dev
+```
 4. Find the message for successful activation  
-```app is listening```
+```
+app is listening
+```
 
 ## Features
 |Function|URL     |Detail  |
