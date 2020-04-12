@@ -10,17 +10,18 @@ No gag? Let Trash Talk Generator help you!
 * Express-Handlebars v4.0.3
 
 **Clone**  
-> Clone this repository to local machine  
-> ```$ git clone https://github.com/Rubyrubylai/trash-talk-generator.git```
+
+Clone this repository to local machine  
+```$ git clone https://github.com/Rubyrubylai/trash-talk-generator.git```
 
 **Setup**
-1. Enter the project folder
+1. Enter the project folder  
 ```cd trash-talk-generator```
-2. Install npm packages
+2. Install npm packages  
 ```npm i```
-3. Activate the server
+3. Activate the server  
 ```npm run dev```
-4. Find the message for successful activation
+4. Find the message for successful activation  
 ```app is listening```
 
 ## Features
