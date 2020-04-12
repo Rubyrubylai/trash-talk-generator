@@ -10,8 +10,8 @@ No gag? Let Trash Talk Generator help you!
 * Express-Handlebars v4.0.3
 
 **Clone**  
-Clone this repository to local machine  
-```$ git clone https://github.com/Rubyrubylai/trash-talk-generator.git```
+> Clone this repository to local machine  
+> ```$ git clone https://github.com/Rubyrubylai/trash-talk-generator.git```
 
 **Setup**
 1. Enter the project folder
