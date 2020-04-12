@@ -11,7 +11,7 @@ No gag? Let Trash Talk Generator help you!
 
 **Clone**  
 Clone this repository to local machine  
-$ git clone https://github.com/Rubyrubylai/trash-talk-generator.git
+```$ git clone https://github.com/Rubyrubylai/trash-talk-generator.git```
 
 **Setup**
 1. Enter the project folder
