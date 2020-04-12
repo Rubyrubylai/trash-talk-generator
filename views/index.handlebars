@@ -1,0 +1,42 @@
+<h1 class="text-center my-4">你想對誰說幹話?</h1>
+<form action="/" method="GET">
+    <div class="row justify-content-between"> 
+        <div class="card-deck col-4">
+            <div class="card">
+            <label for="engineer">
+                <img class="card-img-top" style="object-fit: cover;height: 15rem;" src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg" alt="engineer">
+                <div class="card-body text-center">
+                    <input type="radio" name="target" id="engineer" value="engineer" {{#ifEquals jobs 'engineer'}}checked{{/ifEquals}}>工程師
+                </div>
+            </label>  
+            </div>    
+        </div>
+        <div class="card-deck col-4">
+            <div class="card">
+            <label for="designer">
+                <img class="card-img-top" style="object-fit: cover;height: 15rem;" src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg" alt="designer">
+                <div class="card-body text-center">
+                    <input type="radio" name="target" id="designer" value="designer" {{#ifEquals jobs 'designer'}}checked{{/ifEquals}}>設計師
+                </div>
+            </label> 
+            </div>     
+        </div>
+        <div class="card-deck col-4">
+            <div class="card">           
+            <label for="entrepreneur">
+                <img class="card-img-top" style="object-fit: cover;height: 15rem;" src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg" alt="entrepreneur">
+                <div class="card-body text-center">
+                    <input type="radio" name="target" id="entrepreneur" value="entrepreneur" {{#ifEquals jobs 'entrepreneur'}}checked{{/ifEquals}}>創業家
+                </div>
+            </label> 
+            </div>     
+        </div>
+    </div>
+    <div class="d-flex justify-content-between mt-5">
+
+            <button type="submit" class="btn btn-outline-dark" style="width:150px;height:80ppx;">產生幹話</button>
+
+            <textarea class="ml-3 form-control" aria-label="With textarea" style="height:80px;">{{trashTalker}}  </textarea>
+    </div>
+</form>
+
